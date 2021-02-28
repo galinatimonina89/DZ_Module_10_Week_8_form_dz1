@@ -1,0 +1,107 @@
+* {
+    margin:auto;
+}
+body {
+    height: auto;
+    margin: 50px auto;
+    max-width: 100%;
+    font-family: sans-serif;
+}
+.allformBank{
+    background: rgba(151, 224, 229, 0.42);
+    height: 350px;
+    width: 500px;
+    border-radius: 10px;
+    display: flex;
+
+
+}
+
+
+.tittle{
+    height: 50px;
+    width: 400px;
+    background: #e37a40;
+    display: flex;
+    position: absolute;
+    margin-left: -25px;
+    margin-top: 25px;
+
+}
+.tittle h1{
+    color: white;
+    font-size: 16px;
+
+    font-weight:bold;
+    margin-left: 55px;
+    padding: inherit;
+
+}
+.wrapper{
+    padding-top: 65px;
+    padding-left: 30px;
+
+}
+.wrapper > div{
+    margin-bottom: 20px;
+}
+.card_text {
+    font-size: 12px;
+    color: grey;
+    margin-left: 0;
+    margin-bottom: 10px;
+
+}
+.date-cvv {
+    display: flex;
+
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px 0 0 ;
+}
+.card_input > input[type=text]{
+    width: 75px;
+}
+.card_input > input[type=text]:nth-child(1){
+    margin-right: 10px;
+}
+.card_input {
+    display: flex;
+
+}
+.block > input[type=text]{
+    width: 75px;
+}
+input{
+    background: rgba(151, 224, 229, 0.1);
+    border-bottom: 1px solid gray;
+    border-top: 1px solid rgba(151, 224, 229, 0.1);
+    border-left: 1px solid rgba(151, 224, 229, 0.1);
+    border-right: 1px solid rgba(151, 224, 229, 0.1);
+    height: 25px;
+}
+input::-webkit-input-placeholder {
+    color: rgba(128, 128, 128, 0.55);
+    padding-left: 7px;
+}
+.icons {
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    width: 350px;
+    height: 350px;
+
+
+}
+.icons img{
+    position: absolute;
+    transform: translate(10%, 61%);
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+
+
+}
+
